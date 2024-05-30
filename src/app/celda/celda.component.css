@@ -1,0 +1,30 @@
+
+
+
+
+/* Add a card effect for articles */
+.card {
+  background-color: blue;
+  height:243px;
+  padding: 20px;
+  margin-top: 20px;
+  border-color: black;
+  border-style:solid ;
+}
+
+#pa{
+  text-align: center;
+  font-weight: bold;
+}
+.scrollable {
+  overflow-y: scroll;
+}
+.content-container {
+  max-height: 500px; /* Establece una altura máxima */
+  overflow-y: auto; /* Habilita la barra de desplazamiento vertical si el contenido excede la altura máxima */
+  padding: 5px;
+
+}
+.scroll-box.scrolled {
+  background-color: lightgray;
+}
